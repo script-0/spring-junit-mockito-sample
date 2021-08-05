@@ -27,4 +27,10 @@ Usage
 * To run the tests: <code>mvn clean test</code>
 * If deploying to a servlet container: <code>http://localhost:8080/user</code> will return an initial response.
 
-See <code>org.royrusso.mvc.controller.UserController</code> for more REST endpoints.
+See <code>org.testmockito.controller.UserController</code> for more REST endpoints.
+
+Credits
+=====
+
+- <a href="https://github.com/royrusso/">@royrusso</a>  which its repo <a href="https://github.com/royrusso/spring-mvc-rest-mockito"> spring-mvc-rest-mockito </a>
+- <a href="https://github.com/script-0/"> @script-0 </a>
