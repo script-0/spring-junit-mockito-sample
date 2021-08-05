@@ -28,13 +28,23 @@ targetCompatibility = 1.8
 
 dependencies {
     compile "org.springframework.boot:spring-boot-starter-web"
-    compileOnly 'org.projectlombok:lombok:1.16.20'
-    compile 'org.springframework.boot:spring-boot-starter-data-jpa'
-    compile 'mysql:mysql-connector-java'
+    //compileOnly 'org.projectlombok:lombok:1.16.20'
+    //compile 'org.springframework.boot:spring-boot-starter-data-jpa'
+    //compile 'mysql:mysql-connector-java'
     compile 'javax.servlet:javax.servlet-api:3.1.0'
     testCompile 'org.springframework.boot:spring-boot-starter-test'
-    compile group: 'com.google.guava', name: 'guava', version: '23.5-jre'
+    //compile group: 'com.google.guava', name: 'guava', version: '23.5-jre'
     testCompile 'org.mockito:mockito-core:2.+'
     testImplementation 'org.hamcrest:hamcrest:2.1'
+    
+    testImplementation 'org.mockito:mockito-junit-jupiter:3.7.7'
+														
+    testImplementation("org.junit.jupiter:junit-jupiter-api:5.7.1")
+    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.7.1")
+    compile 'org.springframework:spring-webmvc'
+    compile 'com.fasterxml.jackson.core:jackson-databind'
+    testCompile 'com.jayway.jsonpath:json-path'
+    testCompile 'com.jayway.jsonpath:json-path-assert'
+    implementation group: 'net.bytebuddy', name: 'byte-buddy-dep', version: '1.10.14'
     //testCompile group: 'org.hamcrest', name: 'hamcrest-all', version: 1.3
 }

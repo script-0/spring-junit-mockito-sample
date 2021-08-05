@@ -130,7 +130,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/app/service/ProductService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/app/service/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
@@ -142,7 +142,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/app/model/Product.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/app/model/User.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
               <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
@@ -154,7 +154,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/app/util/OrderProductsByWeight.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/app/util/OrderUsersByWeight.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
               <caret line="10" selection-start-line="10" selection-end-line="10" />
@@ -189,7 +189,7 @@
       <find>Greeting</find>
     </findStrings>
     <replaceStrings>
-      <replace>Product</replace>
+      <replace>User</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src/main/java/service</dir>
@@ -212,17 +212,17 @@
         <option value="$PROJECT_DIR$/src/main/java/model/Greeting.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/GreetingController.java" />
         <option value="$PROJECT_DIR$/src/test/java/model/ServiceControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/Product.java" />
-        <option value="$PROJECT_DIR$/src/main/java/service/ProductService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/ServiceController.java" />
         <option value="$PROJECT_DIR$/src/main/java/Application.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/Application.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/app/service/ProductService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/service/UserService.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/java/app/model/Product.java" />
-        <option value="$PROJECT_DIR$/src/main/java/app/util/OrderProductByWeight.java" />
-        <option value="$PROJECT_DIR$/src/main/java/app/util/OrderProductsByWeight.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/model/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/util/OrderUserByWeight.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/util/OrderUsersByWeight.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/controller/ServiceController.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/util/FunctionRepo.java" />
         <option value="$PROJECT_DIR$/src/test/java/app/model/ServiceControllerTest.java" />
@@ -421,7 +421,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServiceControllerTest.shouldModifyProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ServiceControllerTest.shouldModifyUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="southwest.sample.project.test" />
       <extension name="coverage">
         <pattern>
@@ -431,7 +431,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="app.model" />
       <option name="MAIN_CLASS_NAME" value="app.model.ServiceControllerTest" />
-      <option name="METHOD_NAME" value="shouldModifyProduct" />
+      <option name="METHOD_NAME" value="shouldModifyUser" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -447,7 +447,7 @@
     <list>
       <item itemvalue="JUnit.All in southwest.sample.project.test" />
       <item itemvalue="Spring Boot.Application" />
-      <item itemvalue="JUnit.ServiceControllerTest.shouldModifyProduct" />
+      <item itemvalue="JUnit.ServiceControllerTest.shouldModifyUser" />
       <item itemvalue="JUnit.All in southwest.sample.project.test (2)" />
       <item itemvalue="JUnit.All in southwest.sample.project.test (1)" />
       <item itemvalue="JUnit.All in southwest.sample.project.test (3)" />
@@ -458,7 +458,7 @@
         <item itemvalue="JUnit.All in southwest.sample.project.test (1)" />
         <item itemvalue="JUnit.All in southwest.sample.project.test (2)" />
         <item itemvalue="JUnit.All in southwest.sample.project.test" />
-        <item itemvalue="JUnit.ServiceControllerTest.shouldModifyProduct" />
+        <item itemvalue="JUnit.ServiceControllerTest.shouldModifyUser" />
       </list>
     </recent_temporary>
   </component>
@@ -482,23 +482,23 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ServiceControllerTest_shouldModifyProduct - 2019.01.29 at 16h 47m 40s.xml">
-      <configuration name="ServiceControllerTest.shouldModifyProduct" configurationId="JUnit" />
+    <history-entry file="ServiceControllerTest_shouldModifyUser - 2019.01.29 at 16h 47m 40s.xml">
+      <configuration name="ServiceControllerTest.shouldModifyUser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ServiceControllerTest_shouldModifyProduct - 2019.01.29 at 16h 49m 58s.xml">
-      <configuration name="ServiceControllerTest.shouldModifyProduct" configurationId="JUnit" />
+    <history-entry file="ServiceControllerTest_shouldModifyUser - 2019.01.29 at 16h 49m 58s.xml">
+      <configuration name="ServiceControllerTest.shouldModifyUser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ServiceControllerTest_shouldModifyProduct - 2019.01.29 at 16h 52m 16s.xml">
-      <configuration name="ServiceControllerTest.shouldModifyProduct" configurationId="JUnit" />
+    <history-entry file="ServiceControllerTest_shouldModifyUser - 2019.01.29 at 16h 52m 16s.xml">
+      <configuration name="ServiceControllerTest.shouldModifyUser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ServiceControllerTest_shouldModifyProduct - 2019.01.29 at 16h 53m 43s.xml">
-      <configuration name="ServiceControllerTest.shouldModifyProduct" configurationId="JUnit" />
+    <history-entry file="ServiceControllerTest_shouldModifyUser - 2019.01.29 at 16h 53m 43s.xml">
+      <configuration name="ServiceControllerTest.shouldModifyUser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ServiceControllerTest_shouldModifyProduct - 2019.01.29 at 16h 54m 31s.xml">
-      <configuration name="ServiceControllerTest.shouldModifyProduct" configurationId="JUnit" />
+    <history-entry file="ServiceControllerTest_shouldModifyUser - 2019.01.29 at 16h 54m 31s.xml">
+      <configuration name="ServiceControllerTest.shouldModifyUser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ServiceControllerTest_shouldModifyProduct - 2019.01.29 at 16h 54m 48s.xml">
-      <configuration name="ServiceControllerTest.shouldModifyProduct" configurationId="JUnit" />
+    <history-entry file="ServiceControllerTest_shouldModifyUser - 2019.01.29 at 16h 54m 48s.xml">
+      <configuration name="ServiceControllerTest.shouldModifyUser" configurationId="JUnit" />
     </history-entry>
     <history-entry file="All_in_southwest_sample_project_test - 2019.01.29 at 16h 55m 15s.xml">
       <configuration name="All in southwest.sample.project.test" configurationId="JUnit" />
@@ -573,12 +573,12 @@
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>product.getId()</expression-string>
+        <expression-string>user.getId()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>(productList.get(1)</expression-string>
+        <expression-string>(userList.get(1)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -630,7 +630,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/service/ProductService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
@@ -671,7 +671,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/util/OrderProductsByWeight.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/util/OrderUsersByWeight.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
@@ -736,7 +736,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/model/Product.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
