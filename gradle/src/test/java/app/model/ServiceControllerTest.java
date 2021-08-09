@@ -38,8 +38,16 @@ import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.mockito.Mockito.*;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.junit.jupiter.api.TestMethodOrder;
+import org.junit.jupiter.api.MethodOrderer.OrderAnnotation;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.mockito.Spy;
+import org.springframework.web.context.WebApplicationContext;
 
+@SpringBootTest
 @RunWith(MockitoJUnitRunner.class)
+@TestMethodOrder(OrderAnnotation.class)
 public class ServiceControllerTest {
 
     @Mock
@@ -48,9 +56,17 @@ public class ServiceControllerTest {
     @Mock
     UserServiceImpl userServiceMock;
 
-    @InjectMocks
+    @Spy
     ServiceController userController;
 
+    /*
+        @Spy for real class
+        @Mock to mock
+    */
+    
+    @Autowired
+    private WebApplicationContext context;
+    
     private MockMvc mockMvc;
 
     /*@Spy
@@ -59,11 +75,14 @@ public class ServiceControllerTest {
     
     @Before
     public void setup() {
-        MockitoAnnotations.initMocks(this);
-        mockMvc = MockMvcBuilders.standaloneSetup(userController).build();
+        MockitoAnnotations.openMocks(this);
+        mockMvc = MockMvcBuilders
+                .webAppContextSetup(context)
+                .build();
     }
 
     @Test
+    @Order(1)
     public void testGet() throws Exception {
 
         int userId = 3;
@@ -79,6 +98,7 @@ public class ServiceControllerTest {
     }
 
     @Test
+    @Order(2)
     public void testSave() throws Exception {
         mockMvc.perform(
                 post("/user")
@@ -91,6 +111,7 @@ public class ServiceControllerTest {
     }
 
     @Test
+    @Order(3)
     public void testUpdate() throws Exception {
         mockMvc.perform(
                 put("/user")
@@ -101,6 +122,7 @@ public class ServiceControllerTest {
     }
 
     @Test
+    @Order(4)
     public void testDelete() throws Exception {
         mockMvc.perform(
                 delete("/user/3"))
